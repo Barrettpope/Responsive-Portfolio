@@ -1,6 +1,5 @@
 nav {
     background-color: whitesmoke;
-    border-bottom: 2px solid grey;
 }
 
 .navbar-brand {
@@ -8,6 +7,7 @@ nav {
     background-color: #e7717d;
     margin-left: 35px;
     padding: 15px;
+    font-size: 26px;
 }
 
 .navbar {
@@ -34,26 +34,39 @@ hr {
     border-width: 5px;
 }
 
+.text-block {
+    color: whitesmoke;
+    background-color: #e7717d;
+    text-align: center;
+    padding: 3px;
+
+}
+
 .float-left {
     margin-right: 20px;
 }
 
 h2 {
     color: #e7717d;
+    font-weight: bold;
     margin-top: 20px;
 }
 
-h3 {
-    color: #e7717d;
-}
 
 .btn {
     background-color: #e7717d;
-    border-color: grey;
+    border-color: #e7717d;
+    color: whitesmoke;
 }
 
 footer {
-    background-color: grey;
-    color: whitesmoke;
-    border-top: 3px, #e7717d;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: whitesmoke;
+   text-align: center;
+   background-color: grey;
+   border-top: 3px solid #e7717d;
+   padding: 15px;
 }
