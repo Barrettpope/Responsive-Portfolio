@@ -1,13 +1,17 @@
 nav {
     background-color: whitesmoke;
-    height: 75px;
+    border-bottom: 2px solid grey;
 }
 
 .navbar-brand {
     color: whitesmoke;
     background-color: #e7717d;
-    padding: 35px;
     margin-left: 35px;
+    padding: 15px;
+}
+
+.navbar {
+    padding: 0px;
 }
 
 .nav-link {
@@ -21,8 +25,35 @@ nav {
 .container {
     background-color: whitesmoke;
     margin-top: 35px;
+    width: 60%;
+    float: left;
+    margin-left: 35px;
 }
 
-h1 {
+hr {
+    border-width: 5px;
+}
+
+.float-left {
+    margin-right: 20px;
+}
+
+h2 {
     color: #e7717d;
+    margin-top: 20px;
+}
+
+h3 {
+    color: #e7717d;
+}
+
+.btn {
+    background-color: #e7717d;
+    border-color: grey;
+}
+
+footer {
+    background-color: grey;
+    color: whitesmoke;
+    border-top: 3px, #e7717d;
 }
