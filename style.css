@@ -1,19 +1,19 @@
 /* Global */
     
-    /* Styling the page background */
+    /* Styles the page background */
     body {
         background-color: rgb(226, 221, 221);
     }
 
-/* Navigation Bar */
+/* Header */
 
-    /* Styling the navbar */
+    /* Styles the navbar */
     .navbar {
         padding: 0px;
         background-color: whitesmoke;
     }
 
-    /* Styling the name section in navbar */
+    /* Styles the name section in navbar */
     .navbar-brand {
         color: whitesmoke;
         background-color: #e7717d;
@@ -21,15 +21,25 @@
         padding: 15px;
         font-size: 26px;
     }
+    
+    /* Styles the hover pseudo-class applied to the link */
+    .navbar-brand:hover {
+        color: rgb(25, 25, 25);
+    }
 
-    /* Styling the About, Portfolio and Contact items in navbar */
+    /* Styles the About, Portfolio and Contact items in navbar */
     .nav-link {
         color: grey;
     }
 
-/* Containers */
+    /* Styles the hover pseudo-class applied to the links */
+    .nav-link:hover {
+        color: rgb(25, 25, 25);
+    }
 
-    /* Styling the container boxes */
+/* Main Section || Containers */
+
+    /* Styles the containers */
     .container {
         background-color: whitesmoke;
         margin-top: 35px;
@@ -38,27 +48,32 @@
         margin-left: 35px;
     }
 
-    /* Styling the headings inside the container box */
+    /* Styles the headings inside the containers */
     h2 {
         color: #e7717d;
         font-weight: 400px;
         margin-top: 20px;
     }
 
-    /* Styling the <hr> element inside the container box */
+    /* Styles the <hr> element inside the containers */
     hr {
         border-width: 5px;
     }
 
 /* Portfolio Page */
 
-    /* Styling the images */
+    /* Styles the images */
     .images {
         height: 200px;
         width: 100%;
     }
 
-    /* Styling the text blocks over the images */
+    /* Styles the hover pseudo-class applied to the images */
+    .images:hover {
+        -webkit-filter: brightness(125%); 
+    }
+
+    /* Styles the text blocks over the images */
     .text-block {
         position: relative;
         color: whitesmoke;
@@ -70,18 +85,24 @@
 
 /* About Me Page */
 
-    /* Styling the image and text interaction in the second row */
+    /* Styles the image and text interaction in the second row of the container */
     .float-left {
         margin-right: 20px;
     }
 
 /* Contact Page */
 
-    /* Styling the submit button */
+    /* Styles the submit button */
     .btn {
         background-color: #e7717d;
         border-color: #e7717d;
         color: whitesmoke;
+    }
+
+    /* Styles the hover pseudo-class applied */
+    .btn:hover {
+        background-color: grey;
+        border-color: grey;
     }
 
 /* Footer */
