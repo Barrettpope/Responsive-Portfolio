@@ -70,7 +70,7 @@
 
     /* Styles the hover pseudo-class applied to the images */
     .images:hover {
-        -webkit-filter: brightness(125%); 
+        filter: brightness(115%); 
     }
 
     /* Styles the text blocks over the images */
@@ -123,4 +123,22 @@
     /* Styling the Copyright logo inside the footer box */
     h4 {
         font-size: 16px;
+    }
+
+/* Media Queries */
+
+    /* Width at 768px and below */
+    @media only screen and (max-width: 768px) {
+        .container {
+            width: 100%;
+            margin: 20px;
+        }
+    }
+
+    /* Width at 640 and below */
+    @media only screen and (max-width: 640px) {
+        .container {
+            width: 100%;
+            margin: 20px;
+        }
     }
