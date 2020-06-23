@@ -1,3 +1,4 @@
+
 nav {
     background-color: whitesmoke;
 }
@@ -30,6 +31,11 @@ nav {
     margin-left: 35px;
 }
 
+.images {
+    height: 200px;
+    width: 100%;
+}
+
 hr {
     border-width: 5px;
 }
@@ -48,7 +54,7 @@ hr {
 
 h2 {
     color: #e7717d;
-    font-weight: bold;
+    font-weight: 400px;
     margin-top: 20px;
 }
 
@@ -69,4 +75,8 @@ footer {
    background-color: grey;
    border-top: 3px solid #e7717d;
    padding: 15px;
+}
+
+h4 {
+    font-size: 16px;
 }
