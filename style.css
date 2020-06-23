@@ -1,82 +1,105 @@
+/* Global */
+    
+    /* Styling the page background */
+    body {
+        background-color: rgb(226, 221, 221);
+    }
 
-nav {
-    background-color: whitesmoke;
-}
+/* Navigation Bar */
 
-.navbar-brand {
-    color: whitesmoke;
-    background-color: #e7717d;
-    margin-left: 35px;
-    padding: 15px;
-    font-size: 26px;
-}
+    /* Styling the navbar */
+    .navbar {
+        padding: 0px;
+        background-color: whitesmoke;
+    }
 
-.navbar {
-    padding: 0px;
-}
+    /* Styling the name section in navbar */
+    .navbar-brand {
+        color: whitesmoke;
+        background-color: #e7717d;
+        margin-left: 35px;
+        padding: 15px;
+        font-size: 26px;
+    }
 
-.nav-link {
-    color: rgb(51, 51, 51);
-}
+    /* Styling the About, Portfolio and Contact items in navbar */
+    .nav-link {
+        color: grey;
+    }
 
-.page {
-    background-color: rgb(226, 221, 221);
-}
+/* Containers */
 
-.container {
-    background-color: whitesmoke;
-    margin-top: 35px;
-    width: 60%;
-    float: left;
-    margin-left: 35px;
-}
+    /* Styling the container boxes */
+    .container {
+        background-color: whitesmoke;
+        margin-top: 35px;
+        width: 60%;
+        float: left;
+        margin-left: 35px;
+    }
 
-.images {
-    height: 200px;
+    /* Styling the headings inside the container box */
+    h2 {
+        color: #e7717d;
+        font-weight: 400px;
+        margin-top: 20px;
+    }
+
+    /* Styling the <hr> element inside the container box */
+    hr {
+        border-width: 5px;
+    }
+
+/* Portfolio Page */
+
+    /* Styling the images */
+    .images {
+        height: 200px;
+        width: 100%;
+    }
+
+    /* Styling the text blocks over the images */
+    .text-block {
+        position: relative;
+        color: whitesmoke;
+        background-color: #e7717d;
+        text-align: center;
+        bottom: 55px;
+        padding: 5px;
+    }
+
+/* About Me Page */
+
+    /* Styling the image and text interaction in the second row */
+    .float-left {
+        margin-right: 20px;
+    }
+
+/* Contact Page */
+
+    /* Styling the submit button */
+    .btn {
+        background-color: #e7717d;
+        border-color: #e7717d;
+        color: whitesmoke;
+    }
+
+/* Footer */
+
+    /* Styling the footer box */
+    footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
     width: 100%;
-}
-
-hr {
-    border-width: 5px;
-}
-
-.text-block {
     color: whitesmoke;
-    background-color: #e7717d;
     text-align: center;
-    padding: 3px;
+    background-color: grey;
+    border-top: 3px solid #e7717d;
+    padding: 15px;
+    }
 
-}
-
-.float-left {
-    margin-right: 20px;
-}
-
-h2 {
-    color: #e7717d;
-    font-weight: 400px;
-    margin-top: 20px;
-}
-
-
-.btn {
-    background-color: #e7717d;
-    border-color: #e7717d;
-    color: whitesmoke;
-}
-
-footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   color: whitesmoke;
-   text-align: center;
-   background-color: grey;
-   border-top: 3px solid #e7717d;
-   padding: 15px;
-}
-
-h4 {
-    font-size: 16px;
-}
+    /* Styling the Copyright logo inside the footer box */
+    h4 {
+        font-size: 16px;
+    }
