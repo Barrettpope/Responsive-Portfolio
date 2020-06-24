@@ -10,12 +10,12 @@
     /* Styles the navbar */
     .navbar {
         padding: 0px;
-        background-color: whitesmoke;
+        background-color: whitesmoke !important;
     }
 
     /* Styles the name section in navbar */
     .navbar-brand {
-        color: whitesmoke;
+        color: whitesmoke !important;
         background-color: #e7717d;
         margin-left: 35px;
         padding: 15px;
@@ -24,17 +24,17 @@
     
     /* Styles the hover pseudo-class applied to the link */
     .navbar-brand:hover {
-        color: rgb(25, 25, 25);
+        color: rgb(49, 49, 49) !important;
     }
 
     /* Styles the About, Portfolio and Contact items in navbar */
     .nav-link {
-        color: grey;
+        color: grey !important;
     }
 
     /* Styles the hover pseudo-class applied to the links */
     .nav-link:hover {
-        color: rgb(25, 25, 25);
+        color: rgb(25, 25, 25) !important;
     }
 
 /* Main Section || Containers */
@@ -43,6 +43,7 @@
     .container {
         background-color: whitesmoke;
         margin-top: 35px;
+        margin-bottom: 100px;
         width: 60%;
         float: left;
         margin-left: 35px;
