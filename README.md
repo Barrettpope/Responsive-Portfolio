@@ -13,6 +13,9 @@ Responsive-Portfolio is a mobile-first application that utilizes the Bootstrap C
 * Contact
 
 ## Visuals
+![](aboutme.png)
+![](portfolio.png)
+![](contact.png)
 
 ## Deployed Application
 
